@@ -4,6 +4,8 @@ To truly understand an image, inferring the relationships between the objects wi
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1xvCS2vkTCy8WOJ2fj1_UMUeZ8xAo7Lt6?usp=sharing)
 *The code for building and analyzing the scene graph using YOLOv5 and NetworkX is available in the Colab notebook linked above.*
 
+For more details and the complete article, you can visit [How Scene Graphs Transform Images into Rich Visual Narratives](https://bhaskartripathi.substack.com/p/how-scene-graphs-transform-images).
+
 
 ![image](https://github.com/user-attachments/assets/f1a3c5c0-36f1-4ce9-88d7-76addd7ff0a5)
 
