@@ -54,4 +54,14 @@ Additionally, scene graphs offer benefits in understanding complex environments.
 - **Image Retrieval:** Imagine searching for images based on relationships, not just objects. Instead of simply searching for "tennis", you could search for "person hitting ball on tennis court" — a much more specific and accurate search query powered by scene graphs.
 
 **Now Hookup Everything with an LLM to Generate a Story**
+## Here is a Quick Recap
 
+```mermaid
+flowchart TD
+    A[Input Image] --> B[Run YOLOv5]
+    B --> C[Detect Objects Bounding Boxes]
+    C --> D{Extract Relationships NetworkX}
+    D --> E[Create Scene Graph]
+    E --> F[Visualize Interactions]
+    F --> G[Integrate with GPT-4 LLM]
+    G --> H[Generate Story]
